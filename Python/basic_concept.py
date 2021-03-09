@@ -39,3 +39,21 @@ Cons:
     - Interpreted (slow)
     - Not Native (High memory usage, lack of native security sandbox)
     - Dynamic (Runtime errors)
+
+Significant Whitespace:
+    - Readable Code
+    - No Clutter
+    - Rules
+        - Prefer four spaces
+        - Never mix spaces and tabs
+        - Be consistent on consecutive lines
+        - only deviate to improve readability
+
+
+Diference b/w python2 and python3:
+    - () are required in print in python3 (python3- print("a") python2- print "a")
+
+How to import Libraries:
+    - import module_name
+    - from module_name import attribute/method
+    - from module_name import method as func
